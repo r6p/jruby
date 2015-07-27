@@ -27,6 +27,16 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>sonatype-jossl-staging</id>
+      <url>https://oss.sonatype.org/content/repositories/rubygems-1042/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
   </repositories>
 
   <modules>
@@ -82,8 +92,8 @@
     <github.global.server>github</github.global.server>
     <bundle.name>JRuby</bundle.name>
     <bundle.symbolic_name>org.jruby.jruby</bundle.symbolic_name>
-    <!-- 
-	 these version are used by eclipse, IDEA ,etc 
+    <!--
+	 these version are used by eclipse, IDEA ,etc
 	 and get overwritten by default.build.properties
     -->
     <version.ruby>1.8.7</version.ruby>
