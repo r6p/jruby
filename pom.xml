@@ -27,16 +27,6 @@
         <enabled>true</enabled>
       </snapshots>
     </repository>
-    <repository>
-      <id>sonatype-jossl-staging</id>
-      <url>https://oss.sonatype.org/content/repositories/rubygems-1042/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
   </repositories>
 
   <modules>
